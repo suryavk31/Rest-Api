@@ -1,6 +1,6 @@
 const odbc = require("odbc");
 
-const connectionString = 'DSN=vivimart;UID=vivimart;PWD=vivimart@123';
+const connectionString = 'DSN=yourdbname;UID=youruid;PWD=password';
 
 let connection;
 

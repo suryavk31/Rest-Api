@@ -43,7 +43,7 @@ const adminDetailsRouter = require("./routes/adminDetailsRoutes")
 
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
-  databaseURL: "https://appuser-96f18-default-rtdb.firebaseio.com/"
+  databaseURL: "your database url"
 });
 
 // MySQL session store configuration
@@ -77,7 +77,7 @@ app.use(express.urlencoded({ extended: true }));
 
 // Enable CORS with credentials
 app.use(cors({
-  origin: ['http://localhost:3000', 'https://www.vivimart.in'], // Allow both localhost and the live site
+  origin: ['http://localhost:3000', 'https://www.yourwebsite.in'], // Allow both localhost and the live site
   credentials: true,
   methods: 'GET,POST,PUT,DELETE,OPTIONS',
   allowedHeaders: 'Content-Type,Authorization'
@@ -218,5 +218,5 @@ app.use((err, req, res, next) => {
 });
 
 app.listen(port, () => {
-  console.log(`Vivimart listening at http://localhost:${port}`);
+  console.log(`App listening at http://localhost:${port}`);
 });
