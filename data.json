@@ -1,0 +1,1055 @@
+{
+  "categories": [
+    {
+      "name": "Fruits & Vegetables",
+      "primary_category": {
+        "name": "Fresh Fruits",
+        "secondary_categories": [
+          {
+            "name": "Cut Fruits",
+            "products": [
+              {
+                "id": "{{objectId()}}",
+                "name": "Apple Slice",
+                "description": "Sliced fresh apple",
+                "price": 3.0,
+                "discounted_price": null,
+                "weights": [
+                  { "weight": "250g", "price": 3.0 },
+                  { "weight": "500g", "price": 5.5 },
+                  { "weight": "1kg", "price": 10.0 }
+                ],
+                "kind": "veg",
+                "offer": false,
+                "brand": "Fresh Farms",
+                "image": "./assets/apple_slice.jpg",
+                "detailed_description": "Conveniently sliced for snacking.",
+                "thumbnail": "./assets/apple_slice_thumbnail.jpg"
+              }
+            ]
+          },
+          {
+            "name": "Pomegranate",
+            "products": [
+              {
+                "id": "{{objectId()}}",
+                "name": "Whole Pomegranate",
+                "description": "Fresh whole pomegranate",
+                "price": 4.0,
+                "discounted_price": null,
+                "weights": [
+                  { "weight": "1pc", "price": 4.0 },
+                  { "weight": "2pcs", "price": 7.0 },
+                  { "weight": "5pcs", "price": 16.0 }
+                ],
+                "kind": "veg",
+                "offer": true,
+                "brand": "Fresh Farms",
+                "image": "./assets/pomegranate.jpg",
+                "detailed_description": "Rich in antioxidants and vitamins.",
+                "thumbnail": "./assets/pomegranate_thumbnail.jpg"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Grocery",
+      "primary_category": {
+        "name": "Staples",
+        "secondary_categories": [
+          {
+            "name": "Rice",
+            "products": [
+              {
+                "id": "{{objectId()}}",
+                "name": "Basmati Rice",
+                "description": "Premium quality basmati rice",
+                "price": 10.0,
+                "discounted_price": 8.5,
+                "weights": [
+                  { "weight": "1kg", "price": 10.0 },
+                  { "weight": "2kg", "price": 18.0 },
+                  { "weight": "5kg", "price": 42.0 }
+                ],
+                "kind": "veg",
+                "offer": true,
+                "brand": "Harvest Gold",
+                "image": "./assets/rice.jpg",
+                "detailed_description": "Finest basmati rice for your meals.",
+                "thumbnail": "./assets/rice_thumbnail.jpg"
+              },
+              {
+                "id": "{{objectId()}}",
+                "name": "Brown Rice",
+                "description": "Healthy brown rice",
+                "price": 12.0,
+                "discounted_price": null,
+                "weights": [
+                  { "weight": "1kg", "price": 12.0 },
+                  { "weight": "2kg", "price": 22.0 },
+                  { "weight": "5kg", "price": 50.0 }
+                ],
+                "kind": "veg",
+                "offer": false,
+                "brand": "Organic Farms",
+                "image": "./assets/brown_rice.jpg",
+                "detailed_description": "Nutrient-rich brown rice for a balanced diet.",
+                "thumbnail": "./assets/brown_rice_thumbnail.jpg"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Packaged Foods",
+      "primary_category": {
+        "name": "Snacks & Chips",
+        "secondary_categories": [
+          {
+            "name": "Chips & Crisps",
+            "products": [
+              {
+                "id": "{{objectId()}}",
+                "name": "Potato Chips",
+                "description": "Classic potato chips",
+                "price": 5.0,
+                "discounted_price": null,
+                "weights": [
+                  { "weight": "50g", "price": 5.0 },
+                  { "weight": "100g", "price": 9.0 },
+                  { "weight": "200g", "price": 18.0 }
+                ],
+                "kind": "veg",
+                "offer": false,
+                "brand": "Crunchy Delight",
+                "image": "./assets/potato_chips.jpg",
+                "detailed_description": "Crunchy and flavorful potato chips for your snacking pleasure.",
+                "thumbnail": "./assets/potato_chips_thumbnail.jpg"
+              },
+              {
+                "id": "{{objectId()}}",
+                "name": "Tortilla Chips",
+                "description": "Zesty tortilla chips",
+                "price": 7.0,
+                "discounted_price": null,
+                "weights": [
+                  { "weight": "100g", "price": 7.0 },
+                  { "weight": "250g", "price": 15.0 },
+                  { "weight": "500g", "price": 28.0 }
+                ],
+                "kind": "veg",
+                "offer": true,
+                "brand": "Spicy Bites",
+                "image": "./assets/tortilla_chips.jpg",
+                "detailed_description": "Spicy and delicious tortilla chips for a flavorful snack.",
+                "thumbnail": "./assets/tortilla_chips_thumbnail.jpg"
+              }
+            ]
+          },
+          {
+            "name": "Rusks & Wafers",
+            "products": [
+              {
+                "id": "{{objectId()}}",
+                "name": "Butter Rusks",
+                "description": "Buttery and crisp rusks",
+                "price": 8.0,
+                "discounted_price": null,
+                "weights": [
+                  { "weight": "200g", "price": 8.0 },
+                  { "weight": "400g", "price": 15.0 },
+                  { "weight": "1kg", "price": 35.0 }
+                ],
+                "kind": "veg",
+                "offer": true,
+                "brand": "Golden Bakery",
+                "image": "./assets/butter_rusks.jpg",
+                "detailed_description": "Delightfully buttery rusks for a perfect tea-time snack.",
+                "thumbnail": "./assets/butter_rusks_thumbnail.jpg"
+              },
+              {
+                "id": "{{objectId()}}",
+                "name": "Chocolate Wafers",
+                "description": "Crunchy chocolate-flavored wafers",
+                "price": 12.0,
+                "discounted_price": null,
+                "weights": [
+                  { "weight": "150g", "price": 12.0 },
+                  { "weight": "300g", "price": 22.0 },
+                  { "weight": "500g", "price": 35.0 }
+                ],
+                "kind": "veg",
+                "offer": false,
+                "brand": "Sweet Treats",
+                "image": "./assets/chocolate_wafers.jpg",
+                "detailed_description": "Irresistible chocolate-flavored wafers for a sweet treat.",
+                "thumbnail": "./assets/chocolate_wafers_thumbnail.jpg"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Beverage",
+      "primary_category": {
+        "name": "Soft Drinks and Fruit Juices",
+        "secondary_categories": [
+          {
+            "name": "Coca-Cola, Ale, Fanta",
+            "products": [
+              {
+                "id": "{{objectId()}}",
+                "name": "Coca-Cola",
+                "description": "Classic cola beverage",
+                "price": 2.0,
+                "wholesale_price": {
+                  "250ml": 1.5,
+                  "500ml": 2.8,
+                  "1L": 5.0
+                },
+                "get_rates": {
+                  "250ml": 1.8,
+                  "500ml": 3.2,
+                  "1L": 5.5
+                },
+                "min_quantity": 20,
+                "royalty": 0.2,
+                "profit": 0.5,
+                "mrp": 6.0,
+                "margin_profit_percentage": 0,
+                "delivery_charge": 0,
+                "discounted_price": null,
+                "weights": [
+                  { "weight": "250ml", "price": 2.0 },
+                  { "weight": "500ml", "price": 3.5 },
+                  { "weight": "1L", "price": 6.0 }
+                ],
+                "kind": "non-veg",
+                "offer": false,
+                "brand": "Coca-Cola",
+                "image": "./assets/coca_cola.jpg",
+                "detailed_description": "The classic taste of Coca-Cola for a refreshing experience.",
+                "thumbnail": "./assets/coca_cola_thumbnail.jpg"
+              },
+              {
+                "id": "{{objectId()}}",
+                "name": "Fanta",
+                "description": "Orange-flavored soda",
+                "price": 2.5,
+                "wholesale_price": {
+                  "250ml": 2.0,
+                  "500ml": 3.8,
+                  "1L": 6.5
+                },
+                "get_rates": {
+                  "250ml": 2.3,
+                  "500ml": 4.0,
+                  "1L": 7.0
+                },
+                "min_quantity": 25,
+                "royalty": 0.3,
+                "profit": 0.6,
+                "mrp": 7.0,
+                "margin_profit_percentage": 0,
+                "delivery_charge": 0,
+                "discounted_price": null,
+                "weights": [
+                  { "weight": "250ml", "price": 2.5 },
+                  { "weight": "500ml", "price": 4.0 },
+                  { "weight": "1L", "price": 7.0 }
+                ],
+                "kind": "veg",
+                "offer": true,
+                "brand": "Fanta",
+                "image": "./assets/fanta.jpg",
+                "detailed_description": "Tangy and fruity Fanta for a burst of flavor.",
+                "thumbnail": "./assets/fanta_thumbnail.jpg"
+              }
+            ]
+          },
+          {
+            "name": "Real, Fresh Natural",
+            "products": [
+              {
+                "id": "{{objectId()}}",
+                "name": "Real Mango Juice",
+                "description": "Pure mango juice",
+                "price": 5.0,
+                "wholesale_price": {
+                  "200ml": 4.0,
+                  "500ml": 8.0,
+                  "1L": 15.0
+                },
+                "get_rates": {
+                  "200ml": 4.5,
+                  "500ml": 9.0,
+                  "1L": 16.0
+                },
+                "min_quantity": 15,
+                "royalty": 0.5,
+                "profit": 1.0,
+                "mrp": 18.0,
+                "margin_profit_percentage": 0,
+                "delivery_charge": 0,
+                "discounted_price": null,
+                "weights": [
+                  { "weight": "200ml", "price": 5.0 },
+                  { "weight": "500ml", "price": 10.0 },
+                  { "weight": "1L", "price": 18.0 }
+                ],
+                "kind": "veg",
+                "offer": false,
+                "brand": "Real",
+                "image": "./assets/real_mango_juice.jpg",
+                "detailed_description": "Real mango goodness in every sip.",
+                "thumbnail": "./assets/real_mango_juice_thumbnail.jpg"
+              },
+              {
+                "id": "{{objectId()}}",
+                "name": "Fresh Natural Coconut Water",
+                "description": "Hydrating coconut water",
+                "price": 3.0,
+                "wholesale_price": {
+                  "250ml": 2.5,
+                  "500ml": 4.5,
+                  "1L": 8.0
+                },
+                "get_rates": {
+                  "250ml": 2.8,
+                  "500ml": 5.0,
+                  "1L": 9.0
+                },
+                "min_quantity": 20,
+                "royalty": 0.4,
+                "profit": 0.8,
+                "mrp": 10.0,
+                "margin_profit_percentage": 0,
+                "delivery_charge": 0,
+                "discounted_price": null,
+                "weights": [
+                  { "weight": "250ml", "price": 3.0 },
+                  { "weight": "500ml", "price": 5.5 },
+                  { "weight": "1L", "price": 10.0 }
+                ],
+                "kind": "veg",
+                "offer": true,
+                "brand": "Fresh Natural",
+                "image": "./assets/fresh_natural_coconut_water.jpg",
+                "detailed_description": "Naturally refreshing coconut water straight from the coconut.",
+                "thumbnail": "./assets/fresh_natural_coconut_water_thumbnail.jpg"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Baby & Kids Foods",
+      "primary_category": {
+        "name": "Babyfoods",
+        "secondary_categories": [
+          {
+            "name": "Cereals",
+            "products": [
+              {
+                "id": "{{objectId()}}",
+                "name": "Baby Oat Cereal",
+                "description": "Nutritious oat cereal for babies",
+                "price": 3.0,
+                "wholesale_price": {
+                  "250g": 2.5,
+                  "500g": 4.5,
+                  "1kg": 8.0
+                },
+                "get_rates": {
+                  "250g": 2.8,
+                  "500g": 5.0,
+                  "1kg": 9.0
+                },
+                "min_quantity": 15,
+                "royalty": 0.3,
+                "profit": 0.7,
+                "mrp": 10.0,
+                "margin_profit_percentage": 0,
+                "delivery_charge": 0,
+                "discounted_price": null,
+                "weights": [
+                  { "weight": "250g", "price": 3.0 },
+                  { "weight": "500g", "price": 5.5 },
+                  { "weight": "1kg", "price": 10.0 }
+                ],
+                "kind": "veg",
+                "offer": false,
+                "brand": "Tiny Tots",
+                "image": "./assets/baby_oat_cereal.jpg",
+                "detailed_description": "Wholesome oat cereal specially crafted for babies.",
+                "thumbnail": "./assets/baby_oat_cereal_thumbnail.jpg"
+              }
+            ]
+          },
+          {
+            "name": "Milk Powder",
+            "products": [
+              {
+                "id": "{{objectId()}}",
+                "name": "Infant Milk Powder",
+                "description": "Rich and nutritious milk powder for infants",
+                "price": 8.0,
+                "wholesale_price": {
+                  "500g": 7.0,
+                  "1kg": 12.0,
+                  "2kg": 22.0
+                },
+                "get_rates": {
+                  "500g": 8.0,
+                  "1kg": 14.0,
+                  "2kg": 25.0
+                },
+                "min_quantity": 10,
+                "royalty": 0.5,
+                "profit": 1.5,
+                "mrp": 20.0,
+                "margin_profit_percentage": 0,
+                "delivery_charge": 0,
+                "discounted_price": null,
+                "weights": [
+                  { "weight": "500g", "price": 8.0 },
+                  { "weight": "1kg", "price": 14.0 },
+                  { "weight": "2kg", "price": 25.0 }
+                ],
+                "kind": "veg",
+                "offer": true,
+                "brand": "Nurture Nestle",
+                "image": "./assets/infant_milk_powder.jpg",
+                "detailed_description": "Specially formulated milk powder for infant nutrition.",
+                "thumbnail": "./assets/infant_milk_powder_thumbnail.jpg"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Home & Kitchen",
+      "primary_category": {
+        "name": "Appliances & Cookware",
+        "secondary_categories": [
+          {
+            "name": "Coolers",
+            "products": [
+              {
+                "id": "{{objectId()}}",
+                "name": "Portable Air Cooler",
+                "description": "Compact and efficient air cooler",
+                "price": 120.0,
+                "wholesale_price": {
+                  "1L": 110.0,
+                  "5L": 100.0,
+                  "10L": 200.0
+                },
+                "get_rates": {
+                  "1L": 115.0,
+                  "5L": 105.0,
+                  "10L": 210.0
+                },
+                "min_quantity": 5,
+                "royalty": 0.8,
+                "profit": 5.0,
+                "mrp": 150.0,
+                "margin_profit_percentage": 0,
+                "delivery_charge": 0,
+                "discounted_price": null,
+                "weights": [
+                  { "weight": "1L", "price": 120.0 },
+                  { "weight": "5L", "price": 220.0 },
+                  { "weight": "10L", "price": 400.0 }
+                ],
+                "kind": "non-veg",
+                "offer": false,
+                "brand": "CoolZone",
+                "image": "./assets/portable_air_cooler.jpg",
+                "detailed_description": "Stay cool with this portable air cooler.",
+                "thumbnail": "./assets/portable_air_cooler_thumbnail.jpg"
+              }
+            ]
+          },
+          {
+            "name": "Mixer Grinder",
+            "products": [
+              {
+                "id": "{{objectId()}}",
+                "name": "High-Speed Mixer Grinder",
+                "description": "Efficient mixer grinder for your kitchen",
+                "price": 50.0,
+                "wholesale_price": {
+                  "500W": 45.0,
+                  "750W": 60.0,
+                  "1000W": 80.0
+                },
+                "get_rates": {
+                  "500W": 48.0,
+                  "750W": 65.0,
+                  "1000W": 85.0
+                },
+                "min_quantity": 8,
+                "royalty": 0.5,
+                "profit": 3.0,
+                "mrp": 70.0,
+                "margin_profit_percentage": 0,
+                "delivery_charge": 0,
+                "discounted_price": null,
+                "weights": [
+                  { "weight": "500W", "price": 50.0 },
+                  { "weight": "750W", "price": 75.0 },
+                  { "weight": "1000W", "price": 100.0 }
+                ],
+                "kind": "veg",
+                "offer": true,
+                "brand": "MixMaster",
+                "image": "./assets/high_speed_mixer_grinder.jpg",
+                "detailed_description": "Powerful mixer grinder for your kitchen needs.",
+                "thumbnail": "./assets/high_speed_mixer_grinder_thumbnail.jpg"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Home Appliances",
+      "primary_category": {
+        "name": "Television",
+        "secondary_categories": [
+          {
+            "name": "Shop by Type",
+            "products": [
+              {
+                "id": "{{objectId()}}",
+                "name": "Smart LED TV",
+                "description": "High-quality smart television",
+                "price": 350.0,
+                "wholesale_price": {
+                  "32inch": 320.0,
+                  "42inch": 480.0,
+                  "55inch": 700.0
+                },
+                "get_rates": {
+                  "32inch": 340.0,
+                  "42inch": 500.0,
+                  "55inch": 720.0
+                },
+                "min_quantity": 3,
+                "royalty": 0.6,
+                "profit": 15.0,
+                "mrp": 500.0,
+                "margin_profit_percentage": 0,
+                "delivery_charge": 0,
+                "discounted_price": null,
+                "weights": [
+                  { "weight": "32inch", "price": 350.0 },
+                  { "weight": "42inch", "price": 520.0 },
+                  { "weight": "55inch", "price": 750.0 }
+                ],
+                "kind": "non-veg",
+                "offer": false,
+                "brand": "TechVision",
+                "image": "./assets/smart_led_tv.jpg",
+                "detailed_description": "Experience entertainment like never before with this smart LED TV.",
+                "thumbnail": "./assets/smart_led_tv_thumbnail.jpg"
+              }
+            ]
+          },
+          {
+            "name": "Shop by Capacity",
+            "products": [
+              {
+                "id": "{{objectId()}}",
+                "name": "Large Capacity Refrigerator",
+                "description": "Spacious refrigerator for your kitchen",
+                "price": 800.0,
+                "wholesale_price": {
+                  "300L": 750.0,
+                  "500L": 950.0,
+                  "700L": 1200.0
+                },
+                "get_rates": {
+                  "300L": 780.0,
+                  "500L": 980.0,
+                  "700L": 1250.0
+                },
+                "min_quantity": 2,
+                "royalty": 0.8,
+                "profit": 20.0,
+                "mrp": 1000.0,
+                "margin_profit_percentage": 0,
+                "delivery_charge": 0,
+                "discounted_price": null,
+                "weights": [
+                  { "weight": "300L", "price": 800.0 },
+                  { "weight": "500L", "price": 1000.0 },
+                  { "weight": "700L", "price": 1250.0 }
+                ],
+                "kind": "veg",
+                "offer": true,
+                "brand": "CoolFridge",
+                "image": "./assets/large_capacity_refrigerator.jpg",
+                "detailed_description": "Keep your food fresh with this large-capacity refrigerator.",
+                "thumbnail": "./assets/large_capacity_refrigerator_thumbnail.jpg"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Mobile and Accessories",
+      "primary_category": {
+        "name": "Smartphones",
+        "secondary_categories": [
+          {
+            "name": "Cases and Covers",
+            "products": [
+              {
+                "id": "{{objectId()}}",
+                "name": "Phone Case",
+                "description": "Protective case for your smartphone",
+                "price": 15.0,
+                "discounted_price": null,
+                "models": [
+                  { "model": "iPhone 12", "price": 15.0 },
+                  { "model": "Samsung Galaxy S21", "price": 18.0 },
+                  { "model": "Google Pixel 5", "price": 20.0 }
+                ],
+                "kind": "accessory",
+                "offer": false,
+                "brand": "Guardian Gear",
+                "image": "./assets/phone_case.jpg",
+                "detailed_description": "Durable and stylish protection for your phone.",
+                "thumbnail": "./assets/phone_case_thumbnail.jpg"
+              },
+              {
+                "id": "{{objectId()}}",
+                "name": "Screen Protector",
+                "description": "Tempered glass screen protector",
+                "price": 8.0,
+                "discounted_price": null,
+                "models": [
+                  { "model": "iPhone 12", "price": 8.0 },
+                  { "model": "Samsung Galaxy S21", "price": 10.0 },
+                  { "model": "Google Pixel 5", "price": 12.0 }
+                ],
+                "kind": "accessory",
+                "offer": true,
+                "brand": "Shield Shield",
+                "image": "./assets/screen_protector.jpg",
+                "detailed_description": "Crystal clear protection for your phone's screen.",
+                "thumbnail": "./assets/screen_protector_thumbnail.jpg"
+              }
+            ]
+          },
+          {
+            "name": "Chargers and Cables",
+            "products": [
+              {
+                "id": "{{objectId()}}",
+                "name": "Fast Charger",
+                "description": "Quick charging adapter with cable",
+                "price": 25.0,
+                "discounted_price": 20.0,
+                "models": [
+                  { "model": "iPhone 12", "price": 25.0 },
+                  { "model": "Samsung Galaxy S21", "price": 28.0 },
+                  { "model": "Google Pixel 5", "price": 30.0 }
+                ],
+                "kind": "accessory",
+                "offer": true,
+                "brand": "PowerSwift",
+                "image": "./assets/fast_charger.jpg",
+                "detailed_description": "Charge your phone in no time with this fast charger.",
+                "thumbnail": "./assets/fast_charger_thumbnail.jpg"
+              },
+              {
+                "id": "{{objectId()}}",
+                "name": "USB-C Cable",
+                "description": "High-quality USB-C charging cable",
+                "price": 12.0,
+                "discounted_price": null,
+                "models": [
+                  { "model": "iPhone 12", "price": 12.0 },
+                  { "model": "Samsung Galaxy S21", "price": 14.0 },
+                  { "model": "Google Pixel 5", "price": 16.0 }
+                ],
+                "kind": "accessory",
+                "offer": false,
+                "brand": "TechLink",
+                "image": "./assets/usb_c_cable.jpg",
+                "detailed_description": "Reliable and durable USB-C cable for charging and data transfer.",
+                "thumbnail": "./assets/usb_c_cable_thumbnail.jpg"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Laptop and Accessories",
+      "primary_category": {
+        "name": "Laptops",
+        "secondary_categories": [
+          {
+            "name": "Laptop Bags",
+            "products": [
+              {
+                "id": "{{objectId()}}",
+                "name": "Slim Laptop Backpack",
+                "description": "Compact and lightweight backpack for laptops",
+                "price": 40.0,
+                "discounted_price": null,
+                "models": [
+                  { "model": "Dell XPS 13", "price": 40.0 },
+                  { "model": "MacBook Air", "price": 45.0 },
+                  { "model": "HP Spectre x360", "price": 50.0 }
+                ],
+                "kind": "accessory",
+                "offer": false,
+                "brand": "TechSavvy",
+                "image": "./assets/slim_laptop_backpack.jpg",
+                "detailed_description": "Sleek and stylish backpack designed for laptop convenience.",
+                "thumbnail": "./assets/slim_laptop_backpack_thumbnail.jpg"
+              },
+              {
+                "id": "{{objectId()}}",
+                "name": "Leather Laptop Briefcase",
+                "description": "Professional leather briefcase for laptops",
+                "price": 70.0,
+                "discounted_price": null,
+                "models": [
+                  { "model": "Dell XPS 13", "price": 70.0 },
+                  { "model": "MacBook Air", "price": 75.0 },
+                  { "model": "HP Spectre x360", "price": 80.0 }
+                ],
+                "kind": "accessory",
+                "offer": true,
+                "brand": "Executive Elegance",
+                "image": "./assets/leather_laptop_briefcase.jpg",
+                "detailed_description": "Luxurious leather briefcase for a professional touch.",
+                "thumbnail": "./assets/leather_laptop_briefcase_thumbnail.jpg"
+              }
+            ]
+          },
+          {
+            "name": "Chargers and Adapters",
+            "products": [
+              {
+                "id": "{{objectId()}}",
+                "name": "Universal Laptop Charger",
+                "description": "Multi-connector charger compatible with various laptops",
+                "price": 50.0,
+                "discounted_price": null,
+                "models": [
+                  { "model": "Dell XPS 13", "price": 50.0 },
+                  { "model": "MacBook Air", "price": 55.0 },
+                  { "model": "HP Spectre x360", "price": 60.0 }
+                ],
+                "kind": "accessory",
+                "offer": false,
+                "brand": "PowerUp",
+                "image": "./assets/universal_laptop_charger.jpg",
+                "detailed_description": "Charge multiple laptop models with this versatile charger.",
+                "thumbnail": "./assets/universal_laptop_charger_thumbnail.jpg"
+              },
+              {
+                "id": "{{objectId()}}",
+                "name": "USB-C to HDMI Adapter",
+                "description": "Adapter for connecting laptops to external displays",
+                "price": 20.0,
+                "discounted_price": null,
+                "models": [
+                  { "model": "Dell XPS 13", "price": 20.0 },
+                  { "model": "MacBook Air", "price": 22.0 },
+                  { "model": "HP Spectre x360", "price": 25.0 }
+                ],
+                "kind": "accessory",
+                "offer": true,
+                "brand": "ConnectEase",
+                "image": "./assets/usb_c_hdmi_adapter.jpg",
+                "detailed_description": "Effortlessly connect your laptop to external displays with this adapter.",
+                "thumbnail": "./assets/usb_c_hdmi_adapter_thumbnail.jpg"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Footwear",
+      "primary_category": {
+        "name": "Shoes",
+        "secondary_categories": [
+          {
+            "name": "Running Shoes",
+            "products": [
+              {
+                "id": "{{objectId()}}",
+                "name": "Performance Running Shoes",
+                "description": "High-performance shoes for running",
+                "price": 80.0,
+                "discounted_price": null,
+                "sizes": [
+                  { "size": "US 7", "price": 80.0 },
+                  { "size": "US 8", "price": 85.0 },
+                  { "size": "US 9", "price": 90.0 }
+                ],
+                "kind": "footwear",
+                "offer": false,
+                "brand": "SpeedStride",
+                "image": "./assets/running_shoes.jpg",
+                "detailed_description": "Optimized for speed and comfort during your runs.",
+                "thumbnail": "./assets/running_shoes_thumbnail.jpg"
+              },
+              {
+                "id": "{{objectId()}}",
+                "name": "Trail Running Shoes",
+                "description": "Durable shoes for off-road trail running",
+                "price": 95.0,
+                "discounted_price": null,
+                "sizes": [
+                  { "size": "US 7", "price": 95.0 },
+                  { "size": "US 8", "price": 100.0 },
+                  { "size": "US 9", "price": 105.0 }
+                ],
+                "kind": "footwear",
+                "offer": true,
+                "brand": "TrailBlaze",
+                "image": "./assets/trail_running_shoes.jpg",
+                "detailed_description": "Tackle challenging trails with confidence in these sturdy shoes.",
+                "thumbnail": "./assets/trail_running_shoes_thumbnail.jpg"
+              }
+            ]
+          },
+          {
+            "name": "Casual Shoes",
+            "products": [
+              {
+                "id": "{{objectId()}}",
+                "name": "Classic Canvas Sneakers",
+                "description": "Comfortable and stylish casual sneakers",
+                "price": 50.0,
+                "discounted_price": null,
+                "sizes": [
+                  { "size": "US 7", "price": 50.0 },
+                  { "size": "US 8", "price": 55.0 },
+                  { "size": "US 9", "price": 60.0 }
+                ],
+                "kind": "footwear",
+                "offer": false,
+                "brand": "CasualCool",
+                "image": "./assets/canvas_sneakers.jpg",
+                "detailed_description": "Versatile sneakers for a laid-back and stylish look.",
+                "thumbnail": "./assets/canvas_sneakers_thumbnail.jpg"
+              },
+              {
+                "id": "{{objectId()}}",
+                "name": "Leather Loafers",
+                "description": "Sophisticated leather loafers for casual wear",
+                "price": 75.0,
+                "discounted_price": null,
+                "sizes": [
+                  { "size": "US 7", "price": 75.0 },
+                  { "size": "US 8", "price": 80.0 },
+                  { "size": "US 9", "price": 85.0 }
+                ],
+                "kind": "footwear",
+                "offer": true,
+                "brand": "ElegantStride",
+                "image": "./assets/leather_loafers.jpg",
+                "detailed_description": "Elevate your casual style with these refined leather loafers.",
+                "thumbnail": "./assets/leather_loafers_thumbnail.jpg"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Personal Care",
+      "primary_category": {
+        "name": "Skincare",
+        "secondary_categories": [
+          {
+            "name": "Facial Cleansers",
+            "products": [
+              {
+                "id": "{{objectId()}}",
+                "name": "Gentle Foaming Cleanser",
+                "description": "Mild foaming cleanser for daily facial cleansing",
+                "price": 15.0,
+                "discounted_price": null,
+                "variants": [
+                  { "variant": "Sensitive Skin", "price": 15.0 },
+                  { "variant": "Normal Skin", "price": 15.0 },
+                  { "variant": "Combination Skin", "price": 15.0 }
+                ],
+                "kind": "personal_care",
+                "offer": false,
+                "brand": "PureGlow",
+                "image": "./assets/foaming_cleanser.jpg",
+                "detailed_description": "Gently cleanses and refreshes your skin without over-drying.",
+                "thumbnail": "./assets/foaming_cleanser_thumbnail.jpg"
+              },
+              {
+                "id": "{{objectId()}}",
+                "name": "Exfoliating Scrub",
+                "description": "Revitalizing facial scrub for deep cleansing",
+                "price": 20.0,
+                "discounted_price": null,
+                "variants": [
+                  { "variant": "Apricot & Walnut", "price": 20.0 },
+                  { "variant": "Green Tea & Bamboo", "price": 20.0 },
+                  { "variant": "Charcoal & Mint", "price": 20.0 }
+                ],
+                "kind": "personal_care",
+                "offer": true,
+                "brand": "RadianceRevive",
+                "image": "./assets/exfoliating_scrub.jpg",
+                "detailed_description": "Gently exfoliates to reveal smoother and brighter skin.",
+                "thumbnail": "./assets/exfoliating_scrub_thumbnail.jpg"
+              }
+            ]
+          },
+          {
+            "name": "Hair Care",
+            "products": [
+              {
+                "id": "{{objectId()}}",
+                "name": "Hydrating Shampoo",
+                "description": "Moisturizing shampoo for nourished and healthy hair",
+                "price": 18.0,
+                "discounted_price": null,
+                "variants": [
+                  { "variant": "Repair & Restore", "price": 18.0 },
+                  { "variant": "Volumizing", "price": 18.0 },
+                  { "variant": "Color Protect", "price": 18.0 }
+                ],
+                "kind": "personal_care",
+                "offer": false,
+                "brand": "SilkyStrand",
+                "image": "./assets/hydrating_shampoo.jpg",
+                "detailed_description": "Cleanses and hydrates hair, leaving it soft and manageable.",
+                "thumbnail": "./assets/hydrating_shampoo_thumbnail.jpg"
+              },
+              {
+                "id": "{{objectId()}}",
+                "name": "Nourishing Hair Mask",
+                "description": "Deep conditioning mask for silky and smooth hair",
+                "price": 25.0,
+                "discounted_price": null,
+                "variants": [
+                  { "variant": "Argan Oil & Shea Butter", "price": 25.0 },
+                  { "variant": "Coconut Milk & Avocado", "price": 25.0 },
+                  { "variant": "Keratin & Biotin", "price": 25.0 }
+                ],
+                "kind": "personal_care",
+                "offer": true,
+                "brand": "LuxLocks",
+                "image": "./assets/nourishing_hair_mask.jpg",
+                "detailed_description": "Intensive treatment for revitalizing and strengthening hair.",
+                "thumbnail": "./assets/nourishing_hair_mask_thumbnail.jpg"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Jewelry",
+      "primary_category": {
+        "name": "Necklaces",
+        "secondary_categories": [
+          {
+            "name": "Pendant Necklaces",
+            "products": [
+              {
+                "id": "{{objectId()}}",
+                "name": "Diamond Solitaire Pendant",
+                "description": "Elegant pendant necklace with a single diamond",
+                "price": 300.0,
+                "discounted_price": null,
+                "materials": [
+                  { "material": "14k White Gold", "price": 300.0 },
+                  { "material": "18k Yellow Gold", "price": 350.0 },
+                  { "material": "Sterling Silver", "price": 250.0 }
+                ],
+                "kind": "jewelry",
+                "offer": false,
+                "brand": "DazzleCraft",
+                "image": "./assets/diamond_solitaire_pendant.jpg",
+                "detailed_description": "A timeless piece that adds a touch of sparkle to any outfit.",
+                "thumbnail": "./assets/diamond_solitaire_pendant_thumbnail.jpg"
+              },
+              {
+                "id": "{{objectId()}}",
+                "name": "Heart-Shaped Locket",
+                "description": "Romantic locket necklace with heart-shaped design",
+                "price": 150.0,
+                "discounted_price": null,
+                "materials": [
+                  { "material": "Sterling Silver", "price": 150.0 },
+                  { "material": "Rose Gold Plated", "price": 180.0 },
+                  { "material": "14k Yellow Gold", "price": 220.0 }
+                ],
+                "kind": "jewelry",
+                "offer": true,
+                "brand": "RomanceCharms",
+                "image": "./assets/heart_locket_necklace.jpg",
+                "detailed_description": "Keep cherished memories close with this beautiful locket.",
+                "thumbnail": "./assets/heart_locket_necklace_thumbnail.jpg"
+              }
+            ]
+          },
+          {
+            "name": "Bracelets",
+            "products": [
+              {
+                "id": "{{objectId()}}",
+                "name": "Gemstone Tennis Bracelet",
+                "description": "Stunning tennis bracelet with colorful gemstones",
+                "price": 250.0,
+                "discounted_price": null,
+                "materials": [
+                  { "material": "Sterling Silver", "price": 250.0 },
+                  { "material": "14k Rose Gold", "price": 300.0 },
+                  { "material": "18k Yellow Gold", "price": 350.0 }
+                ],
+                "kind": "jewelry",
+                "offer": false,
+                "brand": "GemGlow",
+                "image": "./assets/gemstone_tennis_bracelet.jpg",
+                "detailed_description": "Elevate your style with this vibrant gemstone bracelet.",
+                "thumbnail": "./assets/gemstone_tennis_bracelet_thumbnail.jpg"
+              },
+              {
+                "id": "{{objectId()}}",
+                "name": "Silver Cuff Bracelet",
+                "description": "Minimalist cuff bracelet in sterling silver",
+                "price": 80.0,
+                "discounted_price": null,
+                "materials": [{ "material": "Sterling Silver", "price": 80.0 }],
+                "kind": "jewelry",
+                "offer": true,
+                "brand": "SimpleElegance",
+                "image": "./assets/silver_cuff_bracelet.jpg",
+                "detailed_description": "A sleek and modern accessory for everyday wear.",
+                "thumbnail": "./assets/silver_cuff_bracelet_thumbnail.jpg"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
